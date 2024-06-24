@@ -1,0 +1,156 @@
+
+nav{
+    background-color: #4682A9;
+    padding:3%;
+    border-radius: 15px 15px 15px 15px;
+}
+.navheading{
+    padding:1%;
+    color:  #AFD3E2;
+    text-decoration: none;
+    font-size: large;
+}
+.images{
+    padding-right:5px;
+   color: #AFD3E2;
+}
+footer{
+
+    background-color: #4682A9;
+    padding:1%;
+    border-radius: 15px 15px 15px 15px;
+    color: #AFD3E2;
+ 
+    
+}
+
+footer p{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+html {
+    background-color:#AFD3E2; ;
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+  }
+  
+  h1 {
+    color: #fff;
+    padding: 10px;
+    text-decoration: underline;
+  }
+  
+  .box {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  #heading p{
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  #heading {
+    background-color:  #4682A9;
+    text-align: center;
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+  }
+  
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #4682A9;
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  
+  form {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color:  #4682A9;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+  }
+  
+  @-webkit-keyframes hvr-back-pulse {
+    50% {
+      background-color: #4682A9;
+    }
+  }
+  @keyframes hvr-back-pulse {
+    50% {
+      background-color:  #4682A9;
+    }
+  }
+  
+  button:hover, button:focus, button:active {
+    -webkit-animation-name: hvr-back-pulse;
+    animation-name: hvr-back-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color:  #4682A9;
+    background-color: #4682A9;
+    color: white;
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0  #AFD3E2;
+  }
+  
+  ::placeholder {
+    color: grey;
+    opacity: 1;
+  }
