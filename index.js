@@ -81,3 +81,6 @@ app.post("/",(req,res)=>{
 app.post("/work",(req,res)=>{
     res.render("work.ejs",{tasklist:workList});
 });
+app.listen(port,()=>{
+    console.log("Port no "+port);
+});
